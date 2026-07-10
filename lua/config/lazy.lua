@@ -19,6 +19,15 @@ require("lazy").setup({
 		-- add LazyVim and import its plugins
 		{ "LazyVim/LazyVim", import = "lazyvim.plugins" },
 
+		-- 2. Import Language Extras (This sets up LSP, Formatting, Debugging)
+		{ import = "lazyvim.plugins.extras.lang.clangd" }, -- C / C++
+		{ import = "lazyvim.plugins.extras.lang.python" }, -- Python
+		{ import = "lazyvim.plugins.extras.lang.rust" }, -- Rust
+		{ import = "lazyvim.plugins.extras.lang.go" }, -- Golang
+		{ import = "lazyvim.plugins.extras.lang.typescript" }, -- TS / JS
+		{ import = "lazyvim.plugins.extras.lang.java" }, -- Java
+		{ import = "lazyvim.plugins.extras.lang.markdown" }, -- Markdown
+
 		-- import/override with your plugins
 		{ import = "plugins" },
 	},
