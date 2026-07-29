@@ -27,6 +27,7 @@ require("lazy").setup({
 		{ import = "lazyvim.plugins.extras.lang.typescript" }, -- TS / JS
 		{ import = "lazyvim.plugins.extras.lang.java" }, -- Java
 		{ import = "lazyvim.plugins.extras.lang.markdown" }, -- Markdown
+		{ import = "lazyvim.plugins.extras.lang.zig" }, -- Zig
 
 		-- import/override with your plugins
 		{ import = "plugins" },
